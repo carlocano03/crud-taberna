@@ -1,0 +1,78 @@
+body {
+    background-color: #e2ecf3;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 0.5rem 0.5rem;
+}
+
+th {
+    padding: 1rem 1rem;
+    text-align: start;
+}
+
+.card {
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #152949;
+    box-shadow: 0 4px 8px 0 rgba(34, 34, 34, 0.06);
+    padding: 2rem;
+    padding-bottom: 5rem;
+    margin: 1rem;
+    width: 50%;
+    height: max-content;
+
+}
+
+input[type=text] {
+    margin-top: 0.2rem;
+    margin: 0.2rem 0rem 0.2rem 0rem;
+    width: 100%;
+    min-height: 2.9rem;
+    border-style: none;
+    border-radius: 15px;
+    background-color: #e2ecf3;
+
+    padding: 0.1rem 2rem;
+    box-sizing: border-box;
+
+}
+
+button {
+    border-style: none;
+    margin: 2rem 0rem 0.2rem 0rem;
+    width: max-content;
+    min-height: 2.9rem;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #152949;
+    padding: 0.1rem 2rem;
+    color: #fff;
+
+}
+.deleteBtn {
+    color: #fff;
+    background-color: orangered;
+}
+a {
+    text-decoration: none;
+    margin: 1.5rem 0rem 0.2rem 0rem;
+    width: max-content;
+    min-height: 2rem;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #152949;
+    padding: 0.1rem 2rem;
+    color: #fff;
+
+}
